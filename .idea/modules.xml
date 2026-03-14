@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/rtms-back/rtms.iml" filepath="$PROJECT_DIR$/rtms-back/rtms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rtms-back.iml" filepath="$PROJECT_DIR$/.idea/rtms-back.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rtms-back/rtms-backend/rtms-backend.iml" filepath="$PROJECT_DIR$/rtms-back/rtms-backend/rtms-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rtms-back/rtms-common/rtms-common.iml" filepath="$PROJECT_DIR$/rtms-back/rtms-common/rtms-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rtms-back/rtms-frontend/rtms-frontend.iml" filepath="$PROJECT_DIR$/rtms-back/rtms-frontend/rtms-frontend.iml" />
+    </modules>
+  </component>
+</project>

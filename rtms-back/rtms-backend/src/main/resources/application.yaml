@@ -1,0 +1,54 @@
+# 后端服务器端口号配置 8090
+server:
+  port: 8090
+
+# spring 项目配置
+spring:
+  application:
+    name: rtms-backend
+  datasource:
+    url: jdbc:mysql://localhost:3306/db-rtms?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  devtools:
+    restart:
+      enabled: false  # 禁用DevTools自动重启功能
+      additional-paths: src/main/java  # 只监听Java文件变化
+      exclude: static/**,public/**,resources/**,META-INF/**  # 排除不需要监听的目录
+
+
+# 文件保存路径默认在服务器的下载文件夹中,在部署时需要按照下列路径创建好对应的文件夹
+img:
+  root: 'D:\ec-workpace\rtms-back\rtms-back\img'
+
+# slf4j 日志配置
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %logger{15} ===> %msg%n"
+
+# springdoc-openapi 接口文档配置
+springdoc:
+  swagger-ui:
+    path: /swagger.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: 'default'
+      paths-to-match: '/**'
+      packages-to-scan: com.dihaozhe.rtmsbackend.controller
+
+
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+    enable-footer: false
+    enable-footer-custom: true
+    footer-custom-content:
