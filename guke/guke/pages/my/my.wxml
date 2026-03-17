@@ -1,0 +1,13 @@
+<view class="my data-v-2f1ef635"><view class="card data-v-2f1ef635"><view class="avatar data-v-2f1ef635" bindtap="{{b}}"><image class="data-v-2f1ef635" src="{{a}}" mode="scaleToFill"/></view><view class="basic-information data-v-2f1ef635"><text class="nickname data-v-2f1ef635">{{c}}</text><text class="phone data-v-2f1ef635">绑定手机号：{{d}}</text></view></view><view class="card data-v-2f1ef635"><view class="money data-v-2f1ef635"><text class="data-v-2f1ef635">余额：￥{{e}}</text><view class="money-btns data-v-2f1ef635"><button class="primary data-v-2f1ef635" bindtap="{{f}}">充值</button><button class="data-v-2f1ef635" bindtap="{{g}}">提现</button></view></view></view><button class="danger data-v-2f1ef635" bindtap="{{h}}">退出登录</button></view><!-- 二维码支付弹出层 -->
+<view class="qr-code-modal data-v-2f1ef635" wx:if="{{i}}">
+  <view class="modal-content data-v-2f1ef635">
+    <view class="modal-title data-v-2f1ef635">支付二维码</view>
+    <view class="qr-code-container data-v-2f1ef635">
+      <image class="qr-code-image data-v-2f1ef635" src="/static/logo2.png" mode="scaleToFill"></image>
+    </view>
+    <view class="modal-actions data-v-2f1ef635">
+      <button class="cancel-btn data-v-2f1ef635" bindtap="{{j}}">取消支付</button>
+      <button class="confirm-btn data-v-2f1ef635" bindtap="{{k}}">已经支付</button>
+    </view>
+  </view>
+</view>

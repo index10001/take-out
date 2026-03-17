@@ -1,0 +1,121 @@
+
+.my.data-v-2f1ef635 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.card.data-v-2f1ef635 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background: #ffffff;
+    border-radius: 24rpx;
+    margin-top: 20rpx;
+    padding: 40rpx;
+    box-shadow: 0 2rpx 4rpx rgba(0, 0, 0, 0.1);
+}
+.avatar.data-v-2f1ef635 {
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+}
+.avatar image.data-v-2f1ef635 {
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+}
+.basic-information.data-v-2f1ef635 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40rpx;
+}
+.nickname.data-v-2f1ef635 {
+    font-size: 32rpx;
+}
+.phone.data-v-2f1ef635 {
+    font-size: 24rpx;
+    color: #7c7c7c;
+}
+.money.data-v-2f1ef635 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.money-btns.data-v-2f1ef635 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button.data-v-2f1ef635 {
+    width: 90%;
+    margin: 40rpx 0;
+}
+/* 二维码支付弹出层 */
+.qr-code-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.modal-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.qr-code-container {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.qr-code-image {
+  width: 200px;
+  height: 200px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel-btn, .confirm-btn {
+  flex: 1;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.cancel-btn {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.confirm-btn {
+  background-color: #07c160;
+  color: #fff;
+}
