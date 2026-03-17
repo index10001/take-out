@@ -1,17 +1,17 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : localhost_3306
-Source Server Version : 50639
-Source Host           : localhost:3306
-Source Database       : db-rtms
-
-Target Server Type    : MYSQL
-Target Server Version : 50639
-File Encoding         : 65001
-
-Date: 2026-01-14 17:01:42
-*/
+/* 
+ Navicat MySQL Data Transfer 
+ 
+ Source Server         : localhost_3306 
+ Source Server Version : 50639 
+ Source Host           : localhost:3306 
+ Source Database       : db-rtms 
+ 
+ Target Server Type    : MYSQL 
+ Target Server Version : 50639 
+ File Encoding         : 65001 
+ 
+ Date: 2026-01-19 14:18:33 
+ */
 
 SET FOREIGN_KEY_CHECKS=0;
 
@@ -39,6 +39,7 @@ CREATE TABLE `tb_account` (
 -- ----------------------------
 -- Records of tb_account
 -- ----------------------------
+<<<<<<< HEAD
 INSERT INTO `tb_account` VALUES ('14', 'admin', 'f4abbdc38236a77fe6fadd1cebd6e8ce', '管理员', '13533243456', '管理员', 'JJ4WKu9EFaiSf9c557d8c2d6963636f75f2600160e33.png', '0', '2025-11-16 01:28:31', '2026-01-12 10:41:47', '正常');
 INSERT INTO `tb_account` VALUES ('15', 'xbk', '37b2aa62455fe1082d2f4bd21f1bfa4f', '商家', '14544345654', '星巴克', 'customer.png', '19100', '2025-11-16 01:31:16', '2026-01-12 10:41:44', '正常');
 INSERT INTO `tb_account` VALUES ('16', 'rx', 'c7ad872dfcdadf048de8838a4221cc7b', '商家', '14543456545', '瑞兴咖啡', 'customer.png', '9970', '2025-11-16 01:47:14', '2026-01-12 10:41:41', '正常');
@@ -56,6 +57,25 @@ INSERT INTO `tb_account` VALUES ('27', '123456', 'b8f3feacb60518e9a5d053f4142f11
 INSERT INTO `tb_account` VALUES ('28', '222', 'bc3a2c82ff058e7684b097bf1d93de38', '商家', '18250969058', '222', 'customer.png', '1200', '2026-01-08 20:54:45', '2026-01-11 20:55:11', '正常');
 INSERT INTO `tb_account` VALUES ('29', 'tang', '7b3ce36009a4e800f5ea92966a252661', '骑手', '13906067214', '汤', '7BYMTDWcfbl6fc42788001efb51195068b59a8eb5de2.png', '3600', '2026-01-11 20:31:05', '2026-01-11 20:41:32', '正常');
 INSERT INTO `tb_account` VALUES ('30', 'wei', 'f288e824c7b7aee330ff0229d4b0a695', '顾客', '13918922778', '炜', 'customer.png', '0', '2026-01-11 20:58:50', '2026-01-12 09:30:12', '正常');
+=======
+INSERT INTO `tb_account` VALUES ('14', 'admin', 'f4abbdc38236a77fe6fadd1cebd6e8ce', '管理员', '13533243456', '管理员', 'JJ4WKu9EFaiSf9c557d8c2d6963636f75f2600160e33.png', '0', '2026-01-12 00:00:00', '2026-01-12 15:00:00', '正常');
+INSERT INTO `tb_account` VALUES ('15', 'xbk', '37b2aa62455fe1082d2f4bd21f1bfa4f', '商家', '14544345654', '星巴克', 'customer.png', '19100', '2026-01-10 08:00:00', '2026-01-14 14:00:00', '正常');
+INSERT INTO `tb_account` VALUES ('16', 'rx', 'c7ad872dfcdadf048de8838a4221cc7b', '商家', '14543456545', '瑞兴咖啡', 'customer.png', '9970', '2026-01-13 01:00:00', '2026-01-10 04:00:00', '正常');
+INSERT INTO `tb_account` VALUES ('17', 'lz', 'f7db064f9b550e2013aa336ab281259c', '商家', '12345435345', '兰州拉面', 'customer.png', '14700', '2026-01-05 19:00:00', '2026-01-07 20:00:00', '正常');
+INSERT INTO `tb_account` VALUES ('18', 'ji123', '37d9a4669259384b5b9b85a8eaaa0bee', '顾客', '13433234565', '马龙', 'UeDHsZpzZM2W0c19ea80796c84161c7ec333f40cfb8a.png', '24090', '2026-01-05 15:00:00', '2026-01-12 09:00:00', '正常');
+INSERT INTO `tb_account` VALUES ('19', 'qs1', '46d6cb0708d30c972cebd80ad424baeb', '顾客', '13433234565', '小王', 'qtaaObw0ugJjfca0f1be34ab9a7e0cefcc21edcc6fc1.png', '0', '2026-01-10 00:00:00', '2026-01-08 16:00:00', '正常');
+INSERT INTO `tb_account` VALUES ('20', 'kfc', '0386d6c151b68a22e7fc5e4805dc06ec', '商家', '13455434567', '肯德基', 'customer.png', '23960', '2026-01-14 01:00:00', '2026-01-09 19:00:00', '正常');
+INSERT INTO `tb_account` VALUES ('21', 'kfcd', 'c21cb79e201c82160c22d808346932ac', '骑手', '13444543456', '骑手1', 'customer.png', '0', '2026-01-08 01:00:00', '2026-01-14 07:00:00', '已封禁');
+INSERT INTO `tb_account` VALUES ('22', 'qq12', '0011b43e4d1918c2818cc50cd228f280', '顾客', '14555434565', '王五', 'customer.png', '22610', '2026-01-07 13:00:00', '2026-01-09 15:00:00', '正常');
+INSERT INTO `tb_account` VALUES ('23', 'kfc1', 'f4047e1b7b85dcdf73226af537e5ac5e', '顾客', '13544345654', '肯卖几', 'customer.png', '0', '2026-01-08 18:00:00', '2026-01-07 22:00:00', '已封禁');
+INSERT INTO `tb_account` VALUES ('24', 'qs3', 'ecb47f3e307b8bd45b5eaa406ff09eaf', '骑手', '13444444444', 'qs3', 'customer.png', '0', '2026-01-10 21:00:00', '2026-01-09 02:00:00', '已封禁');
+INSERT INTO `tb_account` VALUES ('25', 'hls', '5e1bebeabbaea12f1b91ebb911f6905d', '商家', '13533454323', '华莱士', 'customer.png', '0', '2026-01-15 07:00:00', '2026-01-08 11:00:00', '正常');
+INSERT INTO `tb_account` VALUES ('26', 'yy123', 'a1aa864de7c67aee10f1f32fd7b45b7d', '顾客', '13433234543', '王武', 'customer.png', '0', '2026-01-14 13:00:00', '2026-01-07 18:00:00', '已封禁');
+INSERT INTO `tb_account` VALUES ('27', '123456', 'b8f3feacb60518e9a5d053f4142f11f0', '骑手', '18250969058', '123456', 'zFGKk977hLmmfc42788001efb51195068b59a8eb5de2.png', '33230', '2026-01-10 12:00:00', '2026-01-09 01:00:00', '正常');
+INSERT INTO `tb_account` VALUES ('28', '222', 'bc3a2c82ff058e7684b097bf1d93de38', '商家', '18250969058', '222', 'customer.png', '1200', '2026-01-14 00:00:00', '2026-01-06 16:00:00', '正常');
+INSERT INTO `tb_account` VALUES ('29', 'tang', '7b3ce36009a4e800f5ea92966a252661', '骑手', '13906067214', '汤', '7BYMTDWcfbl6fc42788001efb51195068b59a8eb5de2.png', '3600', '2026-01-10 12:00:00', '2026-01-12 09:00:00', '正常');
+INSERT INTO `tb_account` VALUES ('30', 'wei', 'f288e824c7b7aee330ff0229d4b0a695', '顾客', '13918922778', '炜', 'customer.png', '0', '2026-01-12 12:00:00', '2026-01-14 22:00:00', '正常');
+>>>>>>> df151146 (添加db-rtms.sql文件)
 
 -- ----------------------------
 -- Table structure for tb_address
@@ -96,6 +116,7 @@ CREATE TABLE `tb_category` (
 -- ----------------------------
 -- Records of tb_category
 -- ----------------------------
+<<<<<<< HEAD
 INSERT INTO `tb_category` VALUES ('23', '12', '本周推荐', '2025-03-16 01:38:22', '2025-03-16 01:38:22', '正常');
 INSERT INTO `tb_category` VALUES ('24', '12', '经典咖啡', '2025-03-16 01:38:32', '2025-03-16 01:38:32', '正常');
 INSERT INTO `tb_category` VALUES ('25', '12', '浓/系列', '2025-03-16 01:38:51', '2026-01-12 09:27:27', '已删除');
@@ -120,6 +141,32 @@ INSERT INTO `tb_category` VALUES ('43', '17', '饿了', '2026-01-11 20:47:51', '
 INSERT INTO `tb_category` VALUES ('44', '18', '特惠', '2026-01-11 21:01:03', '2026-01-12 02:15:54', '已删除');
 INSERT INTO `tb_category` VALUES ('45', '17', '冰淇淋', '2026-01-11 21:39:55', '2026-01-11 21:39:55', '正常');
 INSERT INTO `tb_category` VALUES ('56', '12', '套餐', '2026-01-12 09:27:23', '2026-01-12 09:27:23', '正常');
+=======
+INSERT INTO `tb_category` VALUES ('23', '12', '本周推荐', '2026-01-09 12:00:00', '2026-01-11 21:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('24', '12', '经典咖啡', '2026-01-15 04:00:00', '2026-01-11 02:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('25', '12', '浓/系列', '2026-01-09 10:00:00', '2026-01-13 07:00:00', '已删除');
+INSERT INTO `tb_category` VALUES ('26', '12', '冰淇淋', '2026-01-14 17:00:00', '2026-01-08 03:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('27', '12', '星巴克甄选', '2026-01-11 01:00:00', '2026-01-07 21:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('28', '12', '其他饮品', '2026-01-10 07:00:00', '2026-01-13 00:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('29', '13', '生椰家族', '2026-01-06 21:00:00', '2026-01-09 15:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('30', '13', '美式家族', '2026-01-08 10:00:00', '2026-01-13 19:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('31', '13', '丝绒拿铁', '2026-01-07 10:00:00', '2026-01-05 23:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('32', '13', '柠檬茶', '2026-01-08 03:00:00', '2026-01-11 15:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('33', '14', '经典牛肉面', '2026-01-14 16:00:00', '2026-01-06 06:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('34', '14', '炒拉面', '2026-01-12 06:00:00', '2026-01-06 08:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('35', '14', '牛/羊肉饭', '2026-01-06 17:00:00', '2026-01-11 23:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('36', '14', '加肉/菜', '2026-01-10 20:00:00', '2026-01-05 21:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('37', '15', '人气热卖', '2026-01-12 23:00:00', '2026-01-08 05:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('38', '15', '人气套餐', '2026-01-14 21:00:00', '2026-01-07 13:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('39', '15', '疯狂星期四', '2026-01-09 19:00:00', '2026-01-05 16:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('40', '15', '周末套餐', '2026-01-14 07:00:00', '2026-01-10 06:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('41', '17', '饮料', '2026-01-11 01:00:00', '2026-01-07 11:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('42', '17', '零食', '2026-01-10 00:00:00', '2026-01-06 17:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('43', '17', '饿了', '2026-01-12 00:00:00', '2026-01-12 13:00:00', '已删除');
+INSERT INTO `tb_category` VALUES ('44', '18', '特惠', '2026-01-05 17:00:00', '2026-01-14 15:00:00', '已删除');
+INSERT INTO `tb_category` VALUES ('45', '17', '冰淇淋', '2026-01-12 18:00:00', '2026-01-07 09:00:00', '正常');
+INSERT INTO `tb_category` VALUES ('56', '12', '套餐', '2026-01-14 19:00:00', '2026-01-11 05:00:00', '正常');
+>>>>>>> df151146 (添加db-rtms.sql文件)
 
 -- ----------------------------
 -- Table structure for tb_order
