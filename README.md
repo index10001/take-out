@@ -1,5 +1,5 @@
 # take-out
-项目概述： 看main分支
+项目概述： 看master分支
 - 基于Spring Boot 3.2.0的外卖管理系统
 - - 包含用户、商家、骑手、订单等核心模块
 - - 集成Redis缓存、百度地图API、百度AI大模型
